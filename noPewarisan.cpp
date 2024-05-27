@@ -10,3 +10,8 @@ class baseClass final
         }
         
 };
+
+class derivedClass : public baseClass
+{
+   
+};
