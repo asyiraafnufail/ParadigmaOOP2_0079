@@ -13,11 +13,11 @@ class baseClass
 
 class derivedClass : public baseClass
 {
-    
-    void perkenalan()
-    {
-        cout << "halo saya function dari derived class";
-    }
+    public:
+        void perkenalan()
+        {
+            cout << "halo saya function dari derived class";
+        }
 };
 
 int main()
@@ -25,5 +25,5 @@ int main()
     derivedClass a;
     a.perkenalan();
 
-    return 0
+    return 0;
 }
